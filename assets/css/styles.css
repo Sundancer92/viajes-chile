@@ -7,11 +7,12 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+footer i {
   color: white;
 }
 hr {
-  color: aqua;
+  color: rgba(51, 138, 160, 0.938);
   opacity: 1;
 }
 
@@ -35,4 +36,28 @@ hr {
   display: flexbox;
   justify-content: end;
   text-align: end;
+}
+
+/* Quienes Somos */
+
+/* Color de Fondo */
+.bg-celeste {
+  background-color: rgba(51, 138, 160, 0.938);
+}
+@media screen and (max-width: 320px) {
+  .ocultar-sm {
+    display: none;
+  }
+
+  /* Footer */
+  footer p {
+    margin: 0;
+    padding: 5px 30px 5px 5px;
+  }
+  /* Control Iconos*/
+  .footer-icon {
+    font-size: 8px;
+    display: inline-block;
+    padding-top: 5px;
+  }
 }
