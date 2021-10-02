@@ -12,30 +12,27 @@ h5 {
 }
 hr {
   color: aqua;
+  opacity: 1;
 }
 
 .centrado {
   text-align: center;
 }
 /* NavBar */
+
 .navbar {
+  width: 100%;
   position: fixed;
   z-index: 10;
 }
 
-.navbar-nav {
-  justify-content: flex-end;
-}
-.navbar p {
-  margin: 0;
-  display: flexbox;
-}
-.navbar a {
-  margin-right: 0.5em;
-}
 .brand-svg {
-  max-height: 3rem;
   max-width: 3rem;
-  margin: 0;
-  padding: 0;
+  max-height: 3rem;
+}
+
+.hamburguer-position {
+  display: flexbox;
+  justify-content: end;
+  text-align: end;
 }
