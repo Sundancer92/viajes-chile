@@ -37,10 +37,21 @@ hr {
   justify-content: end;
   text-align: end;
 }
-
+/* Carousel */
+.my-carousel {
+  margin-bottom: 70px;
+}
 /* Quienes Somos */
 .quienes-somos .card-title {
   padding: 2px 0 2px 0;
+}
+
+.card-text_size {
+  max-height: 305px;
+  overflow: hidden;
+}
+.quienes-somos {
+  margin-bottom: 50px;
 }
 /* Destacadas */
 .card-img-top {
@@ -48,15 +59,29 @@ hr {
   height: 30vh;
   object-fit: cover;
 }
+
 .cards-destacadas {
   margin-bottom: 100px;
+}
+
+/* Footer */
+footer p {
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 30px 5px 5px;
+}
+/* Control Iconos*/
+.footer-icon {
+  display: inline-block;
+  padding-top: 5px;
+  margin-right: 9px;
 }
 /* Color de Fondo */
 .bg-celeste {
   background-color: rgba(51, 138, 160, 0.938);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
   /* NAV Logo SVG */
   .brand-svg {
     max-width: 2rem;
@@ -64,8 +89,9 @@ hr {
   }
   /* Carousel */
   .my-carousel {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
+
   /* Ocultar Small - Quienes Somos y Menu Quienes Somos*/
   .ocultar-sm {
     display: none;
