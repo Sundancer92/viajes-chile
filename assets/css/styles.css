@@ -39,16 +39,45 @@ hr {
 }
 
 /* Quienes Somos */
-
+.quienes-somos .card-title {
+  padding: 2px 0 2px 0;
+}
+/* Destacadas */
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+.cards-destacadas {
+  margin-bottom: 100px;
+}
 /* Color de Fondo */
 .bg-celeste {
   background-color: rgba(51, 138, 160, 0.938);
 }
+
 @media screen and (max-width: 320px) {
+  /* NAV Logo SVG */
+  .brand-svg {
+    max-width: 2rem;
+    max-height: 2rem;
+  }
+  /* Carousel */
+  .my-carousel {
+    margin-bottom: 10px;
+  }
+  /* Ocultar Small - Quienes Somos y Menu Quienes Somos*/
   .ocultar-sm {
     display: none;
   }
-
+  /* Destacadas */
+  .card {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  .cards-destacadas {
+    margin-bottom: 20px;
+  }
   /* Footer */
   footer p {
     margin: 0;
