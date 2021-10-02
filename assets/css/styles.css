@@ -63,12 +63,15 @@ hr {
 .cards-destacadas {
   margin-bottom: 100px;
 }
-
-/* Typeform*/
+/* Typeform */
 .typeform {
-  margin-bottom: 20px;
+  height: 400px;
 }
 /* Footer */
+
+footer {
+  margin-top: 30px;
+}
 footer p {
   font-size: 30px;
   margin: 0;
