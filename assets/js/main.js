@@ -20,6 +20,7 @@ planeta.addEventListener("click",function () {
 });
 
 // Cambia algo de su P
+// Alerta de Jetlag
 qshPlane.addEventListener("click",function () {
     jetLag = !jetLag;
   console.log(jetLag);
@@ -29,11 +30,12 @@ qshPlane.addEventListener("click",function () {
     alert('No tenes jet lag!');        
 }
 });
-
-
+// Oculta o Muestra P de Quienes Somos Card 2
 qshMountain.addEventListener("click",function () {
-    qspMountain.classList.add('d-none'); 
+    qspMountain.classList.toggle('d-none'); 
 });
+
+// Hace girar el P de Quienes Somos Card 3
 qshRoute.addEventListener("click",function () {
     qspRoute.classList.toggle('que-vuele'); 
 });

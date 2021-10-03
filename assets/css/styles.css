@@ -1,5 +1,5 @@
-body,
-.card-body {
+/* Valores Globales */
+body {
   background-color: black;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -12,13 +12,12 @@ h5,
 footer i {
   color: white;
 }
+/* Card */
 .card-title {
   font-weight: bold;
 }
-.brand-text-nav {
-  font-family: "Birthstone";
-  font-size: 40px;
-}
+
+/* Espaciador */
 hr {
   color: rgba(51, 138, 160, 0.938);
   opacity: 1;
@@ -33,6 +32,11 @@ hr {
   width: 100%;
   position: fixed;
   z-index: 10;
+}
+
+.brand-text-nav {
+  font-family: "Birthstone";
+  font-size: 40px;
 }
 
 .brand-svg {
@@ -75,7 +79,6 @@ hr {
 .cards-destacadas {
   margin-bottom: 100px;
 }
-/* Typeform */
 /* Footer */
 
 footer {
