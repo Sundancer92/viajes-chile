@@ -1,6 +1,7 @@
 body,
 .card-body {
   background-color: black;
+  font-family: "Roboto Condensed", sans-serif;
 }
 p,
 h1,
@@ -10,6 +11,13 @@ h4,
 h5,
 footer i {
   color: white;
+}
+.card-title {
+  font-weight: bold;
+}
+.brand-text-nav {
+  font-family: "Birthstone";
+  font-size: 40px;
 }
 hr {
   color: rgba(51, 138, 160, 0.938);
@@ -30,6 +38,10 @@ hr {
 .brand-svg {
   max-width: 3rem;
   max-height: 3rem;
+}
+.brand-text-nav {
+  font-family: "Birthstone";
+  font-size: 25px;
 }
 
 .hamburguer-position {
@@ -69,16 +81,17 @@ hr {
 footer {
   margin-top: 30px;
 }
-footer p {
-  font-size: 30px;
+.brand-text-footer {
+  font-family: "Birthstone";
+  font-size: 40px;
   margin: 0;
-  padding: 5px 30px 5px 5px;
 }
+
 /* Control Iconos*/
 .footer-icon {
   display: inline-block;
   padding-top: 5px;
-  margin-right: 9px;
+  margin-right: 12px;
 }
 /* Color de Fondo */
 .bg-celeste {
@@ -91,6 +104,7 @@ footer p {
     max-width: 2rem;
     max-height: 2rem;
   }
+
   /* Carousel */
   .my-carousel {
     margin-bottom: 20px;
@@ -109,14 +123,17 @@ footer p {
     margin-bottom: 20px;
   }
   /* Footer */
-  footer p {
+
+  .brand-text-footer {
+    font-family: "Birthstone";
+    font-size: 30px;
     margin: 0;
-    padding: 5px 30px 5px 5px;
   }
   /* Control Iconos*/
   .footer-icon {
     font-size: 8px;
     display: inline-block;
     padding-top: 5px;
+    margin-bottom: 5px;
   }
 }
